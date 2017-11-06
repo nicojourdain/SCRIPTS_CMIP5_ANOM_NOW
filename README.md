@@ -2,9 +2,9 @@
 
 **Purpose**: Scripts to build forcing from CMIP5 anomalies (future-present) for NOW (NEMO-OASIS-WRF) simulations.
 
-**Contributors**: Nicolas Jourdain, Daniel Argüeso, Alejandro Diluca, Alexander Sen Gupta. 
+**Contributors**: Nicolas Jourdain, Daniel Argüeso, Alejandro Di Luca, Alexander Sen Gupta. 
 
-In its current form, calculate present as 1980-2009 (historical) and future as 2081-2100 (rcp85).
+In its current form, it calculates present as 1980-2009 (historical) and future as 2081-2100 (rcp85).
 
 * seasonal\_climatology3\_Atm.sh : used to build climatologies (both 1980-2009 and 2081-2100) of 3d atmospheric variables (stored in CLIMO\_ATM)
 

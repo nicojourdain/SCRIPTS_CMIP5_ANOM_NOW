@@ -1,0 +1,54 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '1990-01-01_00:00:00', '2011-05-01_00:00:00', 
+ end_date   = '1990-01-02_00:00:00','2011-06-01_00:00:00', 
+ interval_seconds = 21600,
+ io_form_geogrid = 2,
+ opt_output_from_geogrid_path = './',
+ debug_level = 0,
+/
+
+&geogrid
+ parent_id         = 1,1,
+ parent_grid_ratio = 1,5,
+ i_parent_start    = 1,82,
+ j_parent_start    = 1,36,
+ e_we          = 216,326,
+ e_sn          = 145,201,
+ geog_data_res = '10m','2m',
+ dx = 0.44,
+ dy = 0.44,
+ map_proj =  'lat-lon',
+ ref_lat   = -24.26,
+ ref_lon   = 147.63,
+ pole_lat  = 60.31,
+ pole_lon  = 321.38,
+ stand_lon = 32.37,
+ geog_data_path = '/srv/ccrc/data14/z3393020/WRFs_cyclone/geog',
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'EIN',
+/
+
+&metgrid
+ fg_name = 'EIN',
+ io_form_metgrid = 2,
+ constants_name='LSEIN:2009-01-01_00',
+/
+
+&mod_levs
+ press_pa = 201300 , 200100 , 100000 ,
+             95000 ,  90000 ,
+             85000 ,  80000 ,
+             75000 ,  70000 ,
+             65000 ,  60000 ,
+             55000 ,  50000 ,
+             45000 ,  40000 ,
+             35000 ,  30000 ,
+             25000 ,  20000 ,
+             15000 ,  10000 ,
+              5000 ,   1000
+/
