@@ -1,2 +1,25 @@
-# SCRIPTS_CMIP5_ANOM_NOW
-Scripts to build forcing from CMIP5 anomalies (future-present) for NOW (NEMO-OASIS-WRF) simulations.
+# SCRIPTS CMIP5 ANOM NOW
+
+**Purpose**: Scripts to build forcing from CMIP5 anomalies (future-present) for NOW (NEMO-OASIS-WRF) simulations.
+
+**Contributors**: Nicolas Jourdain, Daniel Argüeso, Alejandro Diluca, Alexander Sen Gupta. 
+
+In its current form, calculate present as 1980-2009 (historical) and future as 2081-2100 (rcp85).
+
+* seasonal\_climatology3\_Atm.sh : used to build climatologies (both 1980-2009 and 2081-2100) of 3d atmospheric variables (stored in CLIMO\_ATM)
+
+* seasonal\_climatology3\_Atmi\_SRF.sh : used to build climatologies (both 1980-2009 and 2081-2100) of 2d atmospheric variables (stored in CLIMO\_ATM).
+
+* REGRID\_ATM/regrid\_ALL\_3D.sh : regrid all CMIP5 3d atm files onto the REAinterim grid.
+
+* REGRID\_ATM/regrid\_ALL\_SRF.sh : regrid all CMIP5 surface atm files onto the REAinterim grid.
+
+* REGRID\_ATM/calculate\_mean\_ALL\_CMIP5\_3D.f90 : calculate multi-model mean of 3d atm variables. 
+
+* REGRID\_ATM/calculate\_mean\_ALL\_CMIP5\_SRF.f90 : calculate multi-model mean of surface atm variables. 
+
+* REGRID\_OCE/interp\_oce\_CMIP5\_to\_ORCA025\_hist.sh : interpolate ocean historical climatologies onto the ORCA025 grid.
+
+* REGRID\_OCE/interp\_oce\_CMIP5\_to\_ORCA025\_rcp85.sh : interpolate ocean rcp85 climatologies onto the ORCA025 grid.
+
+* REGRID\_OCE/calculate\_mean\_ALL\_CMIP5\_OCE.sh : calculate the multi-model mean for the ocean variables.
