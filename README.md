@@ -23,3 +23,5 @@ In its current form, it calculates present as 1980-2009 (historical) and future 
 * REGRID\_OCE/interp\_oce\_CMIP5\_to\_ORCA025\_rcp85.sh : interpolate ocean rcp85 climatologies onto the ORCA025 grid.
 
 * REGRID\_OCE/calculate\_mean\_ALL\_CMIP5\_OCE.sh : calculate the multi-model mean for the ocean variables.
+
+* WRF : python scripts to put the CMIP5 anomalies onto WRF's format.
