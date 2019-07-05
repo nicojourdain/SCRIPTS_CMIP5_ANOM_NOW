@@ -8,7 +8,7 @@ In its current form, it calculates present as 1989-2009 (historical) and future 
 
 * seasonal\_climatology3\_Atm.sh : used to build climatologies (both 1989-2009 and 2081-2100) of 3d atmospheric variables (stored in CLIMO\_ATM)
 
-* seasonal\_climatology3\_Atmi\_SRF.sh : used to build climatologies (both 1989-2009 and 2081-2100) of 2d atmospheric variables (stored in CLIMO\_ATM).
+* seasonal\_climatology3\_Atm\_SRF.sh : used to build climatologies (both 1989-2009 and 2081-2100) of 2d atmospheric variables (stored in CLIMO\_ATM).
 
 * REGRID\_ATM/regrid\_ALL\_3D.sh : regrid all CMIP5 3d atm files onto the REAinterim grid.
 
@@ -25,3 +25,7 @@ In its current form, it calculates present as 1989-2009 (historical) and future 
 * REGRID\_OCE/calculate\_mean\_ALL\_CMIP5\_OCE.sh : calculate the multi-model mean for the ocean variables.
 
 * WRF : python scripts to put the CMIP5 anomalies onto WRF's format.
+
+**References**: 
+
+Dutheil C., Bador M., Lengaigne M., Lefevre J., Jourdain N. C., Jullien S. ,Vialard J., Peltier A., and Menkes C. (2019). Impact of surface temperature biases on climate change projections of the South Pacific Convergence Zone. _Climate Dynamics (in press)_. [doi:10.1007/s00382-019-04692-6](https://doi.org/10.1007/s00382-019-04692-6)
