@@ -4,11 +4,11 @@
 
 **Contributors**: Nicolas Jourdain, Daniel Argüeso, Alejandro Di Luca, Alexander Sen Gupta. 
 
-In its current form, it calculates present as 1980-2009 (historical) and future as 2081-2100 (rcp85).
+In its current form, it calculates present as 1989-2009 (historical) and future as 2081-2100 (rcp85).
 
-* seasonal\_climatology3\_Atm.sh : used to build climatologies (both 1980-2009 and 2081-2100) of 3d atmospheric variables (stored in CLIMO\_ATM)
+* seasonal\_climatology3\_Atm.sh : used to build climatologies (both 1989-2009 and 2081-2100) of 3d atmospheric variables (stored in CLIMO\_ATM)
 
-* seasonal\_climatology3\_Atmi\_SRF.sh : used to build climatologies (both 1980-2009 and 2081-2100) of 2d atmospheric variables (stored in CLIMO\_ATM).
+* seasonal\_climatology3\_Atmi\_SRF.sh : used to build climatologies (both 1989-2009 and 2081-2100) of 2d atmospheric variables (stored in CLIMO\_ATM).
 
 * REGRID\_ATM/regrid\_ALL\_3D.sh : regrid all CMIP5 3d atm files onto the REAinterim grid.
 
